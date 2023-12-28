@@ -1,0 +1,9 @@
+### FILE SYSTEM ###
+alias la="ls -lah" # detailed list of all files
+alias lh="ls -a" # shows hidden files
+alias ...="cd ../.."
+alias ....="cd ../../.."
+
+### GIT ###
+alias glgo="git log --graph --oneline"
+	
