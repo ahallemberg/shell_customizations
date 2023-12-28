@@ -3,11 +3,11 @@
 Clone at home dir level and run these commands depending on your shell.
 
 
-## Z-SHELL
+## Zsh
 
-echo "~/shell_customizations/.aliases" >> ~/.zshrc && source ~/.zshrc 
+echo "source ~/shell_customizations/.aliases" >> ~/.zshrc && source ~/.zshrc 
 
 
-## BASH
+## Bash
 
-echo "~/shell_customizations/.aliases" >> ~/.bashrc && source ~/.bashrc
+echo "source ~/shell_customizations/.aliases" >> ~/.bashrc && source ~/.bashrc
