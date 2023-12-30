@@ -6,7 +6,7 @@ mkd() { # make dir and cd into
 ### SYSTEM INFO ###
 sysinfo() {
     echo "Hostname: $(hostname)"
-    echo "Uptime: $(uptime -p)"
+    echo "Uptime: $(uptime)"
     echo "Operating System: $(uname -o)"
     echo "Kernel Version: $(uname -r)"
     echo "Arch: $(uname -m)"

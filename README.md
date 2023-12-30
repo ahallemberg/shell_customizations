@@ -5,10 +5,10 @@ Clone at home dir level and run these commands depending on your shell.
 
 ## Zsh
 ```zsh
-echo "source ~/shell_customizations/aliases.sh\nsource ~/shell_customizations/functions.sh" >> ~/.zshrc && source ~/.zshrc 
+echo -e "source ~/shell_customizations/aliases.sh\nsource ~/shell_customizations/functions.sh" >> ~/.zshrc && source ~/.zshrc 
 ```
 
 ## Bash
 ```bash
-echo "source ~/shell_customizations/aliases.sh\nsource ~/shell_customizations/functions.sh" >> ~/.bashrc && source ~/.bashrc
+echo -e "source ~/shell_customizations/aliases.sh\nsource ~/shell_customizations/functions.sh" >> ~/.bashrc && source ~/.bashrc
 ```
