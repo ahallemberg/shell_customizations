@@ -10,7 +10,6 @@ alias rmr="rm -r"
 alias mvv="mv -v" 
 alias cpv="cp -v" 
 
-
 ### GIT ###
 alias glgo="git log --graph --oneline" 
 alias grm="git rm" 
@@ -19,7 +18,6 @@ alias gc="git commit -m"
 alias gp="git push"
 alias gcl="git clone"
 alias gd="git diff"
-
 
 ### NETWORKING ###
 alias pbip="curl ifconfig.me"

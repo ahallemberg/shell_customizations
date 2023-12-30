@@ -3,7 +3,6 @@ mkd() { # make dir and cd into
     mkdir -p "$1" && cd "$1"
 }
 
-
 ### SYSTEM INFO ###
 sysinfo() {
     echo "Hostname: $(hostname)"
@@ -12,7 +11,6 @@ sysinfo() {
     echo "Kernel Version: $(uname -r)"
     echo "Arch: $(uname -m)"
 }
-
 
 ### NETWORKING ###
 checknet() {
