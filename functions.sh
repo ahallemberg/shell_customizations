@@ -1,5 +1,5 @@
 ### FILE SYSTEM ###
-mkd() { # make dir and cd into 
+mkcd() { # make dir and cd into 
     mkdir -p "$1" && cd "$1"
 }
 
